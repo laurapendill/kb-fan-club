@@ -1,14 +1,59 @@
-body{font-family: helvetica;
-	align-self: center;
+.upper {text-transform: uppercase;}
+
+body{
+	margin: 0;
+	font-family: avenir, helvetica;
+
 }
 
-a {color: black;}
+header{
+	background-color: #1A4E22;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	
+}
 
+header img {
+	border-radius: 200px; 
+	border: 10px solid white;
+	
+}
 h1{
 	background-color: white;
+	padding: 10px;
 	text-align: center;
 	font-size: 30px;
 	color:black;
+	font-kerning: 10px;
+	
 }
 
+img {
+	border: 10px solid #1A4E22; 
+}
 
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px 20px;}
+
+main img {
+	max-width: 100%;
+
+}
+
+p.caption{
+	color: gray;
+	font-style: italic;
+	margin-top: 5px;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+}
+
+a {
+	color: #1A4E22
+}
