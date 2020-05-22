@@ -1,5 +1,13 @@
 .upper {text-transform: uppercase;}
 
+.center {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 body{
 	margin: 0;
 	font-family: avenir, helvetica;
